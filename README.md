@@ -1,3 +1,3 @@
 # Python-Projects
-Acesta este un Convertor in Lei sau in Euro. 
-Aplicatia este inca in lucru
+This is a app that convert RON in EURO and EURO in Ron.
+The app is still in progress
