@@ -1,7 +1,7 @@
 from Tkinter import *
 
 root= Tk()
-root.geometry("400x400+250+250")
+root.geometry("300x300+250+250")
 root.title("Covertor EURO/LEI")
 
 headint = Label(root,text="Convertor Lei/Euro" , font=('arial 13 bold') , fg="steelblue").pack()
@@ -26,6 +26,7 @@ def convertEURO():
 	lab = Label(root, text=str(final) + " euro").place(x=10,y=260)
 
 buton1= Button(root,text="ConvertEURO" , width=12 , height=2 ,bg="lightgreen",command=convertEURO).place(x=10 , y=220)
+credits = Label(root,text="by Pacze" , font=("Times New Roman", 12, "italic") , fg="black").place(x=240,y=275)
 
 
 
